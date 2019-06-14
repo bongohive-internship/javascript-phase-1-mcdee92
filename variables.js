@@ -6,8 +6,8 @@ var possibleAge2 = futureYear - birthYear - 1;
 console.log('You were born in ' + birthYear + ' and in the year ' + futureYear + ' you will be either ' + possibleAge1 + ' or ' + possibleAge2 + ' years old.')
 
 var currentAge = 27;
-var maximumAge = 30;
-var amountPerDay = 1;
+var maximumAge = 80;
+var amountPerDay = 3;
 var yearsOfLife = maximumAge - currentAge;
 var now = new Date().getFullYear();
 var endYear = now + yearsOfLife;
